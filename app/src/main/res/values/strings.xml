@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Ways to spend your time</string>
     <string name="call">Call your friend</string>
-    <string name="friend_def">A friend is a person who is willing to take you the way you are</string>
+    <string name="friend_def">A person who is willing to take you the way you are</string>
+    <string name="read">Read</string>
+    <string name="reading_def">Gain access to everything from the old classics to the latest best-sellers</string>
+    <string name="next">Next</string>
 </resources>
