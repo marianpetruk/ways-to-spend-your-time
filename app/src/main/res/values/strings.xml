@@ -3,6 +3,8 @@
     <string name="call">Call your friend</string>
     <string name="friend_def">A person who is willing to take you the way you are</string>
     <string name="read">Read</string>
-    <string name="reading_def">Gain access to everything from the old classics to the latest best-sellers</string>
+    <string name="reading_def">You\'re never alone when you\'re reading a book</string>
     <string name="next">Next</string>
+    <string name="museum">Visit museum</string>
+    <string name="museum_def">The place where Time is transformed into Space</string>
 </resources>

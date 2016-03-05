@@ -25,5 +25,12 @@ public class ReadActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ReadActivity.this, MuseumActivity.class);
+                ReadActivity.this.startActivity(intent);
+            }
+        });
     }
 }
