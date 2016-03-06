@@ -11,11 +11,8 @@
     tools:context="com.lukomskyi.roman.waystospendyourtime.MuseumActivity">
 
     <ImageView
+        style="@style/ImageProps"
         android:id="@+id/dino_pic"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:paddingBottom="0dp"
-        android:scaleType="fitXY"
         android:src="@drawable/dinosaur" />
 
     <TextView
@@ -32,7 +29,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:padding="16dp">
 
         <ImageButton
             android:id="@+id/btn_map"

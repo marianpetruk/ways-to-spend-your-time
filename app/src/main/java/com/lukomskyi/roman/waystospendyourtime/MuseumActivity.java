@@ -32,5 +32,12 @@ public class MuseumActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MuseumActivity.this, MusicActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

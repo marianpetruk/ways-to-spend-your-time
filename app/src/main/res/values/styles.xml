@@ -18,4 +18,11 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="ImageProps">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
 </resources>

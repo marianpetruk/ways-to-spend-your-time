@@ -12,28 +12,26 @@
 
     <ImageView
         android:id="@+id/call_boys"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:paddingBottom="0dp"
-        android:scaleType="centerCrop"
+        style="@style/ImageProps"
         android:src="@drawable/call_friend" />
 
     <TextView
         style="@style/TextProps"
-        android:text="@string/call"
-       />
+        android:text="@string/call" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/friend_def"
-        android:textSize="24sp"
+        android:gravity="center"
         android:padding="8dp"
-        android:gravity="center"/>
+        android:text="@string/friend_def"
+        android:textSize="24sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="16dp">
 
         <ImageButton
             android:id="@+id/btn_call"

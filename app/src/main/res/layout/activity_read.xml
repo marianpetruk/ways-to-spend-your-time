@@ -11,10 +11,7 @@
     tools:context="com.lukomskyi.roman.waystospendyourtime.ReadActivity">
 
     <ImageView
-
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:scaleType="centerCrop"
+        style="@style/ImageProps"
         android:src="@drawable/books" />
 
     <TextView
@@ -28,15 +25,19 @@
         android:padding="8dp"
         android:text="@string/reading_def"
         android:textSize="24sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
         <ImageButton
             android:id="@+id/btn_find_books"
             android:layout_width="0dp"
-            android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_chrome_reader_mode_white_48dp"/>
+            android:layout_weight="2"
+            android:src="@drawable/ic_chrome_reader_mode_white_48dp" />
+
         <Button
             android:id="@+id/btn_read_next"
             android:layout_width="0dp"
