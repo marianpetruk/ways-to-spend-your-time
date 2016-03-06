@@ -9,4 +9,6 @@
     <string name="museum_def">The place where Time is transformed into Space</string>
     <string name="music">Music</string>
     <string name="music_def">When words leave off, \nMusic begins</string>
+    <string name="learn">Learn</string>
+    <string name="learn_def">Live as if you were to die tommorow.\nLearn as if you wew ro live forever</string>
 </resources>

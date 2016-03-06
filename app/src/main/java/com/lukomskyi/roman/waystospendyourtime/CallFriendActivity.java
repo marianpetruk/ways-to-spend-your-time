@@ -1,18 +1,15 @@
 package com.lukomskyi.roman.waystospendyourtime;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
-public class CallFriend extends AppCompatActivity {
+public class CallFriendActivity extends AppCompatActivity {
     ImageButton btnCall;
     Button btnNext;
     ImageView image;
@@ -37,8 +34,8 @@ public class CallFriend extends AppCompatActivity {
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CallFriend.this, ReadActivity.class);
-                CallFriend.this.startActivity(intent);
+                Intent intent = new Intent(CallFriendActivity.this, ReadActivity.class);
+                CallFriendActivity.this.startActivity(intent);
             }
         });
     }

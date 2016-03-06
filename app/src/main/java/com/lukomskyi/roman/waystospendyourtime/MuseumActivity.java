@@ -1,17 +1,12 @@
 package com.lukomskyi.roman.waystospendyourtime;
 
 import android.content.Intent;
-import android.location.Location;
-import android.location.LocationManager;
-import android.location.LocationProvider;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-
-import java.util.Locale;
 
 public class MuseumActivity extends AppCompatActivity {
     ImageButton btnMap;
@@ -32,10 +27,11 @@ public class MuseumActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MuseumActivity.this, MusicActivity.class);
+                Intent intent = new Intent(MuseumActivity.this, LearnActivity.class);
                 startActivity(intent);
             }
         });

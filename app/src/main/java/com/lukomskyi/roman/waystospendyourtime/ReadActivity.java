@@ -28,7 +28,7 @@ public class ReadActivity extends AppCompatActivity {
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ReadActivity.this, MuseumActivity.class);
+                Intent intent = new Intent(ReadActivity.this, MusicActivity.class);
                 ReadActivity.this.startActivity(intent);
             }
         });
